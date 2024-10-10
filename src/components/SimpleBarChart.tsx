@@ -59,7 +59,7 @@ const SimpleBarChart: React.FC = () => {
         }}
       >
         <CartesianGrid strokeDasharray="3 3" vertical={false} />
-        <XAxis dataKey={xAxisKey} axisLine={false} className="text-xs md:text-xl" />
+        <XAxis dataKey={xAxisKey} axisLine={false} className="text-xs md:text-lg" />
         <YAxis axisLine={false} />
         <Tooltip />
         <Legend />
